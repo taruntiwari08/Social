@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./style.css" rel="stylesheet">
+    <title>Social</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="flex md:h-[72px] w-full h-6 ">
+        <div class="h-6 md:w-[162.57px] w-full mt-6 md:ml-[72px] cursor-pointer ">
+          <div class=" md:block hidden"> <img  src="/images/whole.png" alt=""> </div> 
+            <img class="md:hidden block absolute top-0 right-0 pr-3 mt-2 h-[10px] w-[51px]" src="/images/mob.png" alt="icons">
+
+        </div> 
+        <div class=" bg-gray-100 h-[42px] w-[360px] mt-4 ml-[350px] border rounded-[21px] md:flex hidden">
+            <div class="h-[22px] w-[22px] mt-[10px] ml-[14px]"><img src="/images/Group 28.png" alt=""></div>
+            <span class="h-[19px] w-[360px] mt-[7px] ml-[20px] text-gray-600 ">Search for your favorite groups in ATG</span>
+        </div>
+        <div class=" md:flex hidden">
+        <button class="h-[21px] text-black  flex items-center mt-[27px] ml-[200px] text-lg cursor-pointer " id="login">
+            Create account. <span class="text-blue-600 flex items-center font-bold ml-1">
+                it's free!
+    
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1 text-black cursor-pointer" fill="solid" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                </svg>
+            </span>
+        </button>
+    </div>
+    <!-- User Display after Login -->
+        <button class="h-[21px] text-black items-center mt-[27px] ml-[200px] text-xl cursor-pointer hidden font-semibold" id="User" >
+            
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1 text-black cursor-pointer" fill="solid" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                </svg>
+            </span>
+        </button>
+
+    </nav>
+    <!-- Navbar finished -->
+
+     <!-- hero section -->
+    <div class="md:h-[440px] w-full bg-custom-gradient "> 
+        <img class="object-cover md:h-[440px] h-[236px] w-full brightness-50 " src="https://s3-alpha-sig.figma.com/img/756e/302b/7d56a759ac56bc165f65c40094aba4e8?Expires=1719792000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=VlMK9~iAQRpXo-W5txR7OSIlYv6aIUuE7p2Hsun89vKmQDCKYbr-ZUE4A7Yl9XD~yCZSx22yyJuGSZ2PLA7v~ATFMybGzlV2L-a~-o6YEzjTPRMYRX6ysiL4vSKdcXXAQbxOAlnE3vDey6mBNWpeYKThwBwck5jVgya~4Is5Xlrf0b6GlGnmkpganoPB4o7iwuzvw6xv6NbF9kXi-lc~-u9i3VLtng8FK4nIkO2hsit7j2n~odcHvzmVTNDYcjQLgTuCRR1ZCRJD7D87Jatvi-~dEuPEaZQcC9siBT5J7iAblfAATTt2MvyK62rOjLTxm9DtwhUWkUUp2oztjagAxg__" alt=bg-image>
+        <div class="md:h-[47px] h-4  md:mt-[-150px] mt-[-100px] ml-4 md:ml-60 md:text-4xl text-xl text-white font-bold shadow-2xl brightness-200 ">
+            
+            Computer Engineering </br>
+        <span class="text-base md:text-[20px] text-gray-200 font-normal"> 142,765 Computer Engineers follow this</span>
+
+          </div>
+        <div class="md:hidden flex  ">
+            <span class="font-extrabold h-6 w-6 text-white mt-[-158px]  ml-2 shadow-2xl brightness-200 text-4xl absolute left-0 cursor-pointer hover:backdrop-blur-lg">&larr;</span>
+            <div class="h-[28px] w-[100px] mt-[-145px] border border-solid rounded-lg border-white ml-[425px]  text-white font-semibold shadow-2xl brightness-200 cursor-pointer"> <span class="ml-2">Join Group</span></div>
+    
+    
+        </div>
+    </div>
+    
+
+   <div class="md:ml-[200px] md:mt-[47px]  md:flex hidden ">
+   <ul class="md:flex hidden md:h-[21px] mb-[-30px]">
+    <li class="mr-6 font-medium ">All Posts(52)</li>
+    <li class="mr-6 cursor-pointer">Article</li>
+    <li class="mr-6 cursor-pointer ">Event</li>
+    <li class="mr-6 cursor-pointer">Education</li>
+    <li class="cursor-pointer">Job</li>
+   </ul>
+   </div>
+   <div class="md:hidden flex mt-[100px]" >
+   <div class="  ml-2 font-medium md:hidden block ">Posts(368)</div>
+    <div class="bg-gray-300 h-[32px] w-[106px] rounded-lg ml-[336px]  cursor-pointer md:hidden block "> <span class="h-[20px] w-[134px] ml-4 mt-1 text-black font-semibold text-center flex">filter: All
+     <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1 mt-1 text-black cursor-pointer" fill="solid" viewBox="0 0 24 24" stroke="currentColor">
+         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+     </svg>
+ </span>
+ </div>
+</div>
+
+   <div class="md:ml-[600px]  ml-0 flex ">
+   <div class="bg-gray-300 h-[36px] w-[134px] rounded-lg ml-[466px] cursor-pointer md:block hidden "> <span class="h-[20px] w-[134px] ml-4 mt-1 text-black font-semibold text-center flex">Write a Post
+    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1 mt-1 text-black cursor-pointer" fill="solid" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+    </svg>
+</span>
+</div>
+
+<div id="Join" class="bg-blue-500 h-[36px] w-[134px] rounded-lg ml-[16px] cursor-pointer md:block hidden"> <span class="h-[20px] w-[134px] ml-4 mt-1 text-white font-semibold text-center flex">
+    <div class="h-[22px] w-[22px] mt-[7px] mr-2"><img src="/images/Vector.png" alt=""></div>
+    Join Group
+</span> 
+</div>
+
+</div>
+
+
+
+<div class="w-auto h-1 border-b-2 ml-[200px] mr-[200px] border-gray-300 rounded-2xl my-2 mt-[18px] md:block hidden "></div>
+
+<!-- Last Section -->
+ <div class="flex">
+    <!-- LEFT SECTION -->
+ <Section class="md:ml-[200px] md:mt-[47px] mt-5"> 
+
+<div class="md:w-[692px] md:h-[472px] h-[390px] w-[540px] mt-2 border rounded-lg border-gray-300">
+<img class="md:h-[220px] h-[150px] w-full object-cover" src="https://s3-alpha-sig.figma.com/img/8f0b/5f52/59515bfc8d2d4ff8928be097376153e9?Expires=1719792000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=EwvQaxFwWfv97F7HxzZF9vzhzkVgKy9jGZ7dBFCafzvlIoC5BK9hTZFUx3tL4RaDLK-ueT1qnvvqbvjWN~wmwRbuadsFXdKPtG40ng4ReInbBbaeM2LUsjdH7zzvTb2MeROtRhMouozsnsbIYBCURHT2hg8pOgdho9A1lAvDDe0lm7KXSI55Yomu4-5H8q-Skscfb3Mx1QGsXpLp8V6x3~N7Cxkeo9A7isvIqnpfWqFIoK1xfysZWC9TgkGCwf6QKy5JEj1k6HsVdimqAC~rkr77Ps9YFHl2pMsrVkCg2S6CMmvrzlXenTqP4hjGhsWZBS1J7eRzuUzjmDOhxcSh9g__" alt=img>
+<div class="mt-2 flex-col" >
+ <span class="ml-[19px] mt-[18px] font-semibold">✍️ Article</span>
+ </br>
+ <div class="flex">
+ <div class="md:w-[600px] w-[460px] ml-[19px] md:h-[60px] mt-[16px] font-bold text-[22px]">What if famous brands had regular fonts? Meet  RegulaBrands!</div>
+ <div class="md:ml-[30px] ml-1  mt-[16px]  font-extrabold text-[25px]">...</div>
+</div>
+<div class="ml-[19px] mt-[16px] text-[19px] text-gray-500 ">I’ve worked in UX for the better part of a decade.<span class="md:block hidden"> From now on, I plan to rei... </span></div>
+<div class="md:flex ">
+ <div class="flex  " >
+<img class ="md:h-12 md:w-12 h-8 w-8 border rounded-[100px] ml-[19px] mt-[16px]"src="https://s3-alpha-sig.figma.com/img/d809/8d9d/f42d73f4b2b7835b4c918c4edcf10f64?Expires=1719792000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Xm~czUCGXNhA5DmsA7BWWdUXbbeGMXyZhyG6fZQt~CB-Dl7xN~kKXNwTf3T1M4GSrvqbIoEzT~jx8Uo0iDIP6Fkfn931pbtomfKbNw8FRSIevTQNlcpMcbyNF-KoHpfgE0rGUYn4CJ-jB2X3UeMywP7Cx8ZO5KM2NfHwJqRWtU8mm34DcfvxvlOdqluIwV-dkWDrx39C6wA2--oeJ7tAvD1QwUDLhfbqvw57e2grM3DfuQYqlzpWa6-WtRcojyduB6HJ~RDlvfXQ4K3TZtKS6DmBy4PL0PBZvwOot0XtgDNa9vEnJdxruqFi5VOkdB0Q5ISw3LgVSv4xHnZl4a7PpQ__" alt="">
+<span class="md:text-[18px] text-[16px] mt-[16px] font-bold md:mt-[25px] ml-2 ">Sarthak Kamra</span>
+</div>
+<div class="flex relative top-[-10px]">
+<img class="w-[78px] h-[20px] md:mt-[29px] ml-16 md:ml-[319px] " src="/images/Group.png" alt="">
+<div class="md:h-[26px] md:w-[30px] w-20 h-7 bg-gray-200 md:mt-[26px] ml-[300px]  rounded-md  md:ml-[19px] flex "> <img class="mt-1 ml-1" src="/images/baseline-share-24px.png" alt=""><span class="md:hidden block font-semibold">Share</span> </div>
+
+</div>
+</div>
+</div>
+
+<div class="md:w-[692px] md:h-[472px] h-[407px] w-[540px] mt-5 border rounded-lg border-gray-300 border-solid border-s-amber-200 ">
+<img class="md:h-[220px] h-[150px] w-full object-cover" src="https://s3-alpha-sig.figma.com/img/250a/24fe/c8e32137d06a7bb3fd57b6dfb4e07bfe?Expires=1719792000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=p7vv9aIW17QC8-v1o8V8TskKwHFL0BVsrpD74ChGjfr8dcMnyuH-Zp-VMor5jpGs3tQUXpstodF~hJNaoS1TepnOng7lFJsnfv076q0jvzTKVY538X-kPjfdyQ7iGhKCKqUzMC-eSPwfO2kPEy-Wz9K7pwB2VUpWZ4FhxTy4oIvjp9LDyOTdcnChd8gPBWXY4UHliH-bmUroJbK88sgsZ1jjaDOPpyCkMiqbmwhW2EBsgKzt7Ln4qvEK022Okln~Gt55mVk53OGNDLMTEMi71nNx6fAN3c-xhFZx4dLzNMfY8OOEMm7zTAIsEYq0cqOeZ1evtcHRAzC0wcsCgV17cA__" alt=img>
+<div class="mt-2 flex-col" >
+ <span class="ml-[19px] mt-[18px] font-semibold">🔬️ Education</span>
+ </br>
+ <div class="flex">
+ <div class="md:w-[600px] w-[460px] ml-[19px] md:h-[60px] mt-[16px] font-bold text-[22px]">Tax Benefits for Investment under National Pension Scheme launched by Government</div>
+ <div class="md:ml-[30px] ml-1  mt-[16px]  font-extrabold text-[25px]">...</div>
+</div>
+<div class="ml-[19px] mt-[16px] text-[19px] text-gray-500 ">I’ve worked in UX for the better part of a decade.<span class="md:block hidden"> From now on, I plan to rei... </span></div>
+<div class="md:flex ">
+ <div class="flex " >
+<img class ="md:h-12 md:w-12 h-8 w-8 border rounded-[100px] ml-[19px] mt-[16px]"src="https://s3-alpha-sig.figma.com/img/c20f/9a59/15d7211204149d93adda6dfafb5d81f2?Expires=1719792000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=IVoO4d30R~TBKXmV34-sy8cex-z4PfIGbULRMukph6pgaR1P~1~zt7bjWMADAC4S60LvHJ-SoD3P0whyHESvwmPbBjS14X~-sDqSmaLHFoI8j7vRlgxRM3ZiCbNOYHYxzlPhvDu1jr4AMR9YlylviUNhzYaw5CfFZxiZ1XOGBVyd-NeIFggbDcMzPE8sVPW5m11T8R6~OzXCF~rHdjLOQ0u5uZ8lvFqunsPS7ma1lvxanOzkmrpUbwd8bWgdvVD5~XuWBcydnGY28PzEmrJjU0t30aHWoaJ9vBmV2vcKAGjZP2HgOzjcAqoBUB2jS7Cu-CjwuCwlJXXr01mqMAaBag__" alt="">
+<span class="md:text-[18px] text-[16px] mt-[16px] font-bold md:mt-[25px] ml-2">Sarah West</span>
+</div>
+<div class="flex relative top-[-10px]">
+<img class="w-[78px] h-[20px] md:mt-[29px] ml-16 md:ml-[319px] " src="/images/Group.png" alt="">
+<div class="md:h-[26px] md:w-[30px] w-20 h-7 bg-gray-200 md:mt-[26px] ml-[300px]  rounded-md  md:ml-[19px] flex "> <img class="mt-1 ml-1" src="/images/baseline-share-24px.png" alt=""><span class="md:hidden block font-semibold">Share</span> </div>
+
+</div>
+</div>
+</div>
+
+    <div class="md:w-[692px] md:h-[472px] h-auto w-[540px] mt-5 border rounded-lg border-gray-300 border-solid border-s-amber-200">
+        <img class="md:h-[220px] h-[150px] w-full object-cover" src="https://s3-alpha-sig.figma.com/img/bdc0/79a9/a2e530610a1b91c9682ba7889c87c1b2?Expires=1719792000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Ll5sqn9YuE-evKrJAgN86lIVC-EGZf8wiAw1nq7yAryNBOkq7Sg8hKImeS7LeiCBxcRUy0JhqQVzNiHagbk~JVvkW8BSoPvEKIaXZD0RCE7cbbNavBBaU~zfmUvq9agcyHvtxph9jVXyYGeWEfxfe-pVLgnhNz6y02jHe6UgdYcm0VzxdXGkGplvS8Q9OZwlKDbB17ne1wSNg5pyhKsAm~ZfhTmr-5OF7HRmREr65XszlCPeXxVakc8JXakxmmWYL-WGsoYL1xkk-A2s28bQDdMYKgwR7oqJspBh8NEk44VA-KgryX1i6VNjUgKrqQ23G6Frx6FBiXjuVCSVpfhQng__" alt=img>
+        <div class="mt-2 flex-col" >
+         <span class="ml-[19px] mt-[18px] font-semibold">🗓️ Meetup</span>
+         </br>
+         <div class="flex">
+         <div class="md:w-[600px] w-[460px] ml-[19px] md:h-[60px] mt-[16px] font-bold text-[22px]">Finance & Investment Elite Social Mixer @Lujiazui</div>
+         <div class="md:ml-[30px] ml-1  mt-[16px]  font-extrabold text-[25px]">...</div>
+        </div>
+
+        <div class="flex w-[358px] h-5 space-x-6 mt-2 ">
+
+       <div class="ml-[19px]   flex">
+        <img class="h-5 w-5 " src="/images/baseline-today-24px.png" alt=cal>
+        <span class="text-[15px] ml-2 font-bold w-[142px]">Fri, 12 Oct, 2018</span>
+       </div>
+
+       <div class="ml-[30px]  flex">
+        <img class="h-5 w-4 ml-14" src="/images/Group1.png " alt=cal>
+        <span class="text-[15px] ml-2 font-bold w-[342px]">Ahmedabad, India</span></div>
+        </div>
+
+       <div> 
+        <div class="ml-[19px] mt-[20px] md:w-[640px] h-[40px] w-[500px] border border-gray-300 rounded-lg border-solid "> 
+            <div class=" space-y-3 font-bold text-[16px] text-center mt-2 text-orange-600 cursor-pointer">Visit Website</div>
+        </div>
+        <div class="md:flex ">
+            <div class="flex " >
+           <img class ="md:h-12 md:w-12 h-8 w-8 border rounded-[100px] ml-[19px] mt-[16px]"src="https://s3-alpha-sig.figma.com/img/b8a9/097f/c3ac7682e52df2e10d0a36ec3f243a44?Expires=1719792000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Ng0VDYcSvtV1A57wBDN4-DuJAwroU49mCLRKwrWstF5SsOhJBYqwqikGVs7TS5nVFvmFXiCmc3eLB2NpVjWbKKY5i8pkNpxPOGWHjMGwPVNAGg8EncxQ9E6xafnTbpe7xp~jBa~0X8DGMC5DGFizAWLCgm-6TGLWS3iBV1iL8pD~n09gAiKOCNmggoWRL0KqCuY4pQcEk6aKAw6GVA1NhzKrsB2yGHX7T-KzHeQE-M71KEgHzIcjRTjo8uHytniC-UXKoIiA5isBV0o-H6CZZogHogTqA8948OeoVlOK8rAJ1~iyAwb-fnLX2hYsdqNjVO1c9E1HMPVq2e6cZ~tAWw__" alt="">
+           <span class="md:text-[18px] text-[16px] mt-[16px] font-bold md:mt-[25px] ml-2">Ronal Jones</span>
+           </div>
+           <div class="flex relative top-[-10px]">
+           <img class="w-[78px] h-[20px] md:mt-[29px] ml-16 md:ml-[319px] " src="/images/Group.png" alt="">
+           <div class="md:h-[26px] md:w-[30px] w-20 h-7 bg-gray-200 md:mt-[26px] ml-[300px]  rounded-md  md:ml-[19px] flex "> <img class="mt-1 ml-1" src="/images/baseline-share-24px.png" alt=""><span class="md:hidden block font-semibold">Share</span> </div>
+           
+           </div>
+           </div>
+           </div>   
+
+
+        <div class="md:w-[692px] md:h-[302px] h-[300px] w-[540px] mt-5 border rounded-lg border-gray-300 border-solid border-s-amber-200">
+            <div class="mt-2 flex-col" >
+             <span class="ml-[19px] mt-[18px] font-semibold">💼️ Job</span>
+             </br>
+             <div class="flex">
+             <div class="md:w-[600px] w-[460px] ml-[19px] md:h-[60px] mt-[16px] font-bold text-[22px]">Software Developer</div>
+             <div class="md:ml-[30px] ml-1  mt-[16px]  font-extrabold text-[25px]">...</div>
+            </div>
+    
+            <div class="flex w-[358px] h-5 space-x-6 mt-2 ">
+    
+           <div class="ml-[19px] flex">
+            <img class="h-5 w-5 " src="/images//Vector1.png" alt=cal>
+            <span class="text-[15px] ml-2 font-bold w-[256px]">Innovaccer Analytics Private Ltd.</span>
+           </div>
+    
+           <div class="ml-[30px]  flex">
+            <img class="h-[21px] w-4 ml-14" src="/images/Group1.png " alt=cal>
+            <span class="text-[15px] ml-2 font-bold w-[342px]">Noida, India</span></div>
+            </div>
+    
+           <div> 
+            <div class="ml-[19px] mt-[20px] md:w-[640px] h-[40px] w-[500px] border border-gray-300 rounded-lg border-solid "> 
+                <div class=" space-y-3 font-bold text-[16px] text-center mt-2 text-green-500 cursor-pointer">Apply on Timesjobs</div>
+            </div>
+            <div class="md:flex ">
+                <div class="flex " >
+               <img class ="md:h-12 md:w-12 h-8 w-8 border rounded-[100px] ml-[19px] mt-[16px]"src="https://s3-alpha-sig.figma.com/img/8199/8e3c/09c5683fd07ee58841475464a08ce69f?Expires=1719792000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=kjKCnjPcFg1HH~hdRR11kTiMj~Kjl6MTH3a2ErcsPp5tYPnlGWTTg251zbytSxPVYTC9SintIDgXfp8R4dmYoj5-bgsUjWUbSBrZg73DbJcV21ja5yZf5KIvDdeMgzhmAJrW4JhZydkUisP71LXPqux7JaSWCKkL-8Dl3PO6wcWloi5q8JPLP7B58P1zMBLXDG6YPsI9DKNqt3wvX~u~TBQSZohBijFJEbf8WTz~cA-aN1voGw~Bu6CTCGzmRe~btlT8xxAII-9BLDxf1Is7zthfUplTj26r4XfmMeAINFd-PybfNQybCBJ69WuPZ3Oeop7lRSc9L5kfcM8Txp-9ww__" alt="">
+               <span class="md:text-[18px] text-[16px] mt-[16px] font-bold md:mt-[25px] ml-2">Joseph Gray</span>
+               </div>
+               <div class="flex relative top-[-10px]">
+               <img class="w-[78px] h-[20px] md:mt-[29px] ml-16 md:ml-[319px] " src="/images/Group.png" alt="">
+               <div class="md:h-[26px] md:w-[30px] w-20 h-7 bg-gray-200 md:mt-[26px] ml-[300px]  rounded-md  md:ml-[19px] flex "> <img class="mt-1 ml-1" src="/images/baseline-share-24px.png" alt=""><span class="md:hidden block font-semibold">Share</span> </div>
+               
+               </div>
+               </div>
+               </div>
+            
+ </div>           
+
+ </Section>
+ <!-- RIGHT SECTION -->
+ <Section class="ml-[100px] mt-[67px]">
+    <div class="ml-[30px]  md:flex hidden">
+        <div class="  flex">
+        <img class="h-[21px] w-[16px] ml-14 mt-1" src="/images/Group1.png " alt=cal>
+        <span class="text-[15px] ml-2 font-medium w-[177px] h-5">Noida, India</span></div>
+        <img class="h-[18px] w-[16px] ml-[40px] mt-1 cursor-pointer" src="/images/baseline-edit-24px.png " alt=cal>
+       </div>
+        <div class="w-64 h-1 border-b-2 ml-[85px] mr-[200px] border-gray-300 rounded-2xl my-2 mt-[10px] md:block hidden"></div>
+      <div class="w-[433px] h-[32px] mt-1 ml-8 md:flex hidden">
+        <img class="h-[18px] w-[16px] ml-14 mt-1" src="/images/Vector2.png " alt=cal>
+        <span class="text-[12px] ml-2 font-medium w-[220px] h-[22px] text-gray-400 ">Your location will help us serve better and extend a personalised experience.</span>
+      </div>    
+</Section>
+
+</div>
+<div id="overlape" class="fixed top-0 left-0 w-full h-screen z-[-1] opacity-0 transition-transform duration-1000 bg-[#000000]"></div>
+    
+<!-- Login form -->
+<div id="Logincard" class=" absolute left-1/2 top-1/2 w-[750px] h-[497px]  z-[1] justify-center items-end transform -translate-x-1/2 -translate-y-1/2 hidden transition-transform duration-2000">
+    <div class="relative w-[736px] h-[457px] bg-white rounded-lg">
+        <!-- Close Button -->
+        <button id="close" class="absolute top-0 right-0 mt-[-35px] m-4 text-2xl font-bold bg-gray-300 rounded-full h-7 w-7 flex items-center justify-center">&times;</button>
+        <!-- Inner Login Card Header -->
+        <div class="w-full h-[50px] bg-[#EFFFF4] flex items-center rounded-t-lg">
+            <span class="ml-8 text-[#008A45] font-medium text-[15px] leading-[25px]">
+                Let's learn, share & inspire each other with our passion for computer engineering. Sign up now 🤘🏼
+            </span>
+        </div>
+        <!-- Form Section -->
+        <section class="p-5 flex justify-between">
+            <!-- Sign In Form -->
+            <div>
+                <span class="font-bold text-[24px]">Sign In</span>
+                <form class="mt-5 space-y-2 w-[320px]">
+                    <!-- Email Input -->
+                    <div class="border border-gray-400 h-[46px] rounded-t-md">
+                        <input type="text" placeholder="Email" class="w-full h-full pl-2" />
+                    </div>
+                    <!-- Password Input -->
+                    <div class="border border-gray-400 h-[46px]">
+                        <input type="password" placeholder="Password" class="w-full h-full pl-2" />
+                    </div>
+                    <!-- Sign In Button -->
+                    <button type="submit" class="mt-2 w-full h-10 bg-[#2F6CE5] text-white rounded-full hover:bg-blue-900">Sign In</button>
+                </form>
+                <!-- Sign In with Facebook -->
+                <div class="border border-gray-400 h-[46px] w-[320px] text-[14px] rounded-md mt-5 flex items-center justify-center hover:bg-green-200 cursor-pointer">
+                    <img class="w-4 h-4" src="https://s3-alpha-sig.figma.com/img/2260/c71f/967377e16ffbb611ef03393e79e51f6e?Expires=1720396800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=IXY34c~VQ91zB8cB0zcQ7SOibu2HBXGQKoCa8pP7OZUVK636Nq--POLZ2jqbpugDCmObzkZZC9nnf~N-7yfIDgf8BjhltABTDvKUZX~D5vzAPnfct0RjtQOau-amAiZygrG6sRc1iXBEGaOfv4-KmNjMUGw0-VXhFZHAGNE2eJmNB~8YtKGLkbBxy~fWDDSW4zm303OA57DeTsH45wEZVL-X2HbnYdYvxa4i7~zD3-JmGfkmm220EN4fxQRFM7TQ2RMp4lRIQxECZ2gqVG2R3RQvxjxq39Cx9aCAtPobJ-t-ZjjzUnQ~84Mnteqe3kdygncRYHKVTy-9y~kIxsrpuQ__" alt="Facebook">
+                    <span class="ml-2">Sign in with Facebook</span>
+                </div>
+                <!-- Sign In with Google -->
+                <div class="border border-gray-400 h-[46px] w-[320px] text-[14px] rounded-md mt-3 flex items-center justify-center hover:bg-green-200 cursor-pointer">
+                    <img class="w-4 h-4" src="/images/search.png" alt="Google">
+                    <span class="ml-2">Sign in with Google</span>
+                </div>
+                <!-- Forgot Password -->
+                <div class="text-center mt-3 font-semibold text-[15px] cursor-pointer">Forgot Password?</div>
+            </div>
+            <!-- Right Section -->
+            <div class="flex flex-col items-center">
+                <!-- Sign Up Suggestion -->
+                <div class="mt-2 mb-7 text-[16px]">
+                    Don’t have an account yet? <span class="text-blue-800 font-medium cursor-pointer">Create new for free!</span>
+                </div>
+                <!-- Image Placeholder -->
+                <img class="h-[320px] w-[320px]" src="/images/rightbg.png" alt="">
+            </div>
+        </section>
+    </div>
+</div>
+
+<!-- Sign-up Form -->
+<div id="SignUpCard" class="absolute left-1/2 top-1/2 w-[750px] h-[497px]  z-[1] justify-center items-end transform -translate-x-1/2 -translate-y-1/2 hidden transition-transform duration-2000">
+    <div class="relative w-[736px] h-[513px] bg-white rounded-lg">
+        <!-- Close Button -->
+        <button id="close1" class="absolute top-0 right-0 mt-[-35px] m-4 text-2xl font-bold bg-gray-300 rounded-full h-7 w-7 flex items-center justify-center">&times;</button>
+        <!-- Inner Login Card Header -->
+        <div class="w-full h-[50px] bg-[#EFFFF4] flex items-center rounded-t-lg">
+            <span class="ml-8 text-[#008A45] font-medium text-[15px] leading-[25px]">
+                Let's learn, share & inspire each other with our passion for computer engineering. Sign up now 🤘🏼
+            </span>
+        </div>
+        <!-- Form Section -->
+        <section class="p-5 flex justify-between">
+            <!-- Sign In Form -->
+            <div>
+                <span class="font-bold text-[24px]">Create Account</span>
+                <form class="mt-5 space-y-2 w-[320px]" id="SignUpForm">
+                    <!-- NAME INPUT -->
+                    <div class="border h-[46px] rounded-t-md flex">
+                        <input id="FirstName"  type="text" placeholder="First Name" class="w-[160px] h-full border border-solid border-gray-400 pl-2 " />
+                        <input id="SecondName" type="text" placeholder="Last Name" class="w-[160px] h-full border border-solid border-gray-400 pl-2 " />
+                    </div>
+                    <!-- Email Input -->
+                    <div class="border border-gray-400 h-[46px] rounded-t-md">
+                        <input type="text" placeholder="Email" class="w-full h-full pl-2" />
+                    </div>
+                    <!-- Password Input -->
+                    <div class="border border-gray-400 h-[46px]">
+                        <input type="password" placeholder="Password" class="w-full h-full pl-2" />
+                    </div>
+                    <!-- Confirm Password Input -->
+                    <div class="border border-gray-400 h-[46px]">
+                        <input type="password" placeholder="Confirm Password" class="w-full h-full pl-2" />
+                    </div>
+                    <!-- Sign In Button -->
+                    <button type="submit" class="mt-2 w-full h-10 bg-[#2F6CE5] text-white rounded-full hover:bg-blue-900">Create Account </button>
+                </form>
+                <!-- Sign In with Facebook -->
+                <div class="border border-gray-400 h-[46px] w-[320px] text-[14px] rounded-md mt-5 flex items-center justify-center hover:bg-green-200 cursor-pointer">
+                    <img class="w-4 h-4" src="https://s3-alpha-sig.figma.com/img/2260/c71f/967377e16ffbb611ef03393e79e51f6e?Expires=1720396800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=IXY34c~VQ91zB8cB0zcQ7SOibu2HBXGQKoCa8pP7OZUVK636Nq--POLZ2jqbpugDCmObzkZZC9nnf~N-7yfIDgf8BjhltABTDvKUZX~D5vzAPnfct0RjtQOau-amAiZygrG6sRc1iXBEGaOfv4-KmNjMUGw0-VXhFZHAGNE2eJmNB~8YtKGLkbBxy~fWDDSW4zm303OA57DeTsH45wEZVL-X2HbnYdYvxa4i7~zD3-JmGfkmm220EN4fxQRFM7TQ2RMp4lRIQxECZ2gqVG2R3RQvxjxq39Cx9aCAtPobJ-t-ZjjzUnQ~84Mnteqe3kdygncRYHKVTy-9y~kIxsrpuQ__" alt="Facebook">
+                    <span class="ml-2">Sign up with Facebook</span>
+                </div>
+                <!-- Sign In with Google -->
+                <div class="border border-gray-400 h-[46px] w-[320px] text-[14px] rounded-md mt-3 flex items-center justify-center hover:bg-green-200 cursor-pointer">
+                    <img class="w-4 h-4" src="/images/search.png" alt="Google">
+                    <span class="ml-2">Sign up with Google</span>
+                </div>
+                <!-- Forgot Password -->
+                <div class="text-center mt-3 font-semibold text-[15px] cursor-pointer">Forgot Password?</div>
+            </div>
+            <!-- Right Section -->
+            <div class="flex flex-col items-center">
+                <!-- Sign Up Suggestion -->
+                <div class="mt-2 mb-7 text-[16px]">
+                    Already have an account? <span class="text-blue-800 font-medium cursor-pointer"> Sign In</span>
+                </div>
+                <!-- Image Placeholder -->
+                <img class="h-[320px] w-[320px]" src="/images/rightbg.png" alt="">
+            </div>
+        </section>
+    </div>
+</div>
+
+
+
+</body>
+<script src="script.js"></script>
+</html> 
